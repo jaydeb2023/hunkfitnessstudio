@@ -233,6 +233,10 @@
   .gallery-grid div:nth-child(6){grid-column:span 2;}
   .gallery-note{margin-top:20px;font-family:var(--mono);font-size:12.5px;color:var(--steel);display:flex;gap:10px;align-items:center;}
   .gallery-note i{color:var(--brass);}
+  .gallery-tile.has-img{
+    background-repeat:no-repeat;
+    min-height:200px;
+}
 
   /* ===== TESTIMONIALS ===== */
   .testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
@@ -524,28 +528,26 @@
       <div class="gallery-tile has-img" style="background-image:url('images/studio-floor.jpg')"></div>
       Keep (or remove) the <b> label as a caption overlay if you like.
     -->
-<div class="gallery-tile has-img"
-     style="background-image:url('h1.jpg')">
-</div>
+<div class="gallery-grid">
 
-<div class="gallery-tile has-img"
-     style="background-image:url('h2.jpg')">
-</div>
+    <div class="gallery-tile has-img"
+         style="background-image:url('h1.jpg')"></div>
 
-<div class="gallery-tile has-img"
-     style="background-image:url('h3.jpg')">
-</div>
+    <div class="gallery-tile has-img"
+         style="background-image:url('h2.jpg')"></div>
 
-<div class="gallery-tile has-img"
-     style="background-image:url('h4.jpg')">
-</div>
+    <div class="gallery-tile has-img"
+         style="background-image:url('h3.jpg')"></div>
 
-<div class="gallery-tile has-img"
-     style="background-image:url('h5.jpg')">
-</div>
+    <div class="gallery-tile has-img"
+         style="background-image:url('h4.jpg')"></div>
 
-<div class="gallery-tile has-img"
-     style="background-image:url('h6.jpg')">
+    <div class="gallery-tile has-img"
+         style="background-image:url('h5.jpg')"></div>
+
+    <div class="gallery-tile has-img"
+         style="background-image:url('h6.jpg')"></div>
+
 </div>
     <div class="gallery-note"><i class="fa-solid fa-circle-info"></i> Real, geo-tagged photos of the studio and members (with consent) improve local search ranking — add a few here before publishing.</div>
   </div>
